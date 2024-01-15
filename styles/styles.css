@@ -9,7 +9,10 @@
 
 .container {
     max-width: 1170px;
-    margin: 0 auto;
+    margin: 0px auto 81px;
+
+    border: 1px solid tomato;
+    height: auto;
 }
 
 .section-head {
