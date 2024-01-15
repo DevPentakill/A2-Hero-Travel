@@ -147,28 +147,31 @@ margin-bottom: 44px;
     width: 640px;
     margin-top: 23px;
 }
-.gallery img{
+.img-1 img, .img-2 img, .img-3 img, .img-4 img, .img-5 img, .img-6 img, .img-8 img {
     height:100%;
     width:100%;
     object-fit:cover;
-    border-radius: 16px;}
-    /* background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%);
-    ,lightgray 50% / cover no-repeat;
- */
+    border-radius: 16px;
+    /* background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%),lightgray 50% / cover no-repeat; */
+}
+   
+
 .rowA{
     height: 300px;
     display: flex;
+    justify-content: space-between;
     gap: 24px;
     margin-bottom: 24px;
 }
 .rowB{
     height: 286px;
     display: flex;
+    justify-content: space-between;
     gap: 24px;
     margin-bottom: 24px;
 }
 
 
-/* .row > div{
+/* .rowA > div, .rowB > div{
     flex: 1;
 } */
