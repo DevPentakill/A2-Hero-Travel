@@ -1,0 +1,10 @@
+/* common shared styles */
+*{
+    margin: 0;
+    padding 0;
+}
+
+header{
+    background-color: blue;
+    color: yellowgreen;
+}
