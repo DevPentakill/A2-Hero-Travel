@@ -3,6 +3,8 @@
 
 .container{
     min-width:250px;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 
     /* banner style for mobiles */
@@ -30,8 +32,15 @@
         width:100%;
     }
 
-
-
+/* popular tours mobile styles */
+.popular_tour{
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.popular_img, .popular_text{
+    width: 100%;
+}
 
 
 }
