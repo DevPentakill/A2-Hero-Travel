@@ -1,0 +1,37 @@
+
+@media screen and (max-width:600px){
+
+.container{
+    min-width:250px;
+}
+
+    /* banner style for mobiles */
+
+    h1{
+        font-size: 22px;
+        margin-bottom: 8px;
+    }
+    .banner>p {
+
+        width: 75%;
+        margin-bottom: 30px;
+        color: white;
+        text-align: center;
+    }
+    .pickers{
+        flex-direction: column;
+        width: 74%;
+    }
+    #pick {
+        
+        width: 100%;
+    }
+    .pickers>button{
+        width:100%;
+    }
+
+
+
+
+
+}
