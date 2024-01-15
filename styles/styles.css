@@ -99,3 +99,28 @@ h1 {
     font-size: 16px;
     font-weight: 400;
 }
+
+/* popular tour section related styles starts here. */
+
+.popular_tour {
+    display: flex;
+    gap: 80px;
+}
+
+.popular_text {
+    color: rgba(19, 19, 24, 0.70);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 16px;
+}
+
+.popular_text button {
+    font-size: 20px;
+    font-weight: 800;
+    width: 174px;
+    height: 52px;
+}
+.popular_text ul{
+    padding-left: 20px;
+}
