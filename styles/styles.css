@@ -474,15 +474,23 @@ footer {
 }
 
 /* navigation bar related styles */
-nav{
-    display:flex;
+
+header {
+    max-width: 1170px;
+    margin: 52px auto 50px;
+}
+
+nav {
+    display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 .logo {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 16px;
     color: #131318;
     font-family: Mulish;
     font-size: 36px;
@@ -490,9 +498,28 @@ nav{
     font-weight: 800;
     line-height: normal;
 }
-.menu>ul{
+
+.menu>ul {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     gap: 40px;
+
+}
+
+.menu>ul>li {
+    list-style: none;
+}
+
+.menu>ul>li>a {
+    text-decoration: none;
+    color: #424247;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 18px;
+}
+
+#special_home {
+    color: #FF5400;
+    font-weight: 700;
 }
