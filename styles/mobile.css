@@ -1,3 +1,6 @@
+
+/* Responsive design for Mobile device (600px) */
+
 @media screen and (max-width:600px) {
 
     .container {
@@ -148,4 +151,31 @@
         margin: 50px auto;
     }
 
+    /* nav bar responsible for mobile */
+    header {
+        min-width: 250px;
+        margin: 18px 20px;
+    }
+
+    nav .menu {
+        display: none;
+    }
+
+    .logo {
+        font-size: 21px;
+    }
+
+    #burger{
+        display: inline;
+        margin-right: 20px;
+        font-size: 1.5em;
+    }
+}
+
+/* Styling for the bonus section */
+
+@media screen and (min-width:601px) {
+    #burger {
+        display: none;
+    }
 }
