@@ -222,7 +222,7 @@ h1 {
     flex-grow: 2;
 }
 
-.gallery h3 {
+.gallery h3 { /*Style related to bonus*/
     color: #FFF;
     font-family: Mulish;
     font-size: 28px;

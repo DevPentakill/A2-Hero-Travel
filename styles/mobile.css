@@ -47,7 +47,7 @@
         width: 100%;
     }
 
-    /* why Destination gallery mobile styles */
+    /* Destination gallery mobile styles */
 
     .rowA,
     .rowB,
@@ -91,8 +91,20 @@
     .img-5 img,
     .img-6 img,
     .img-8 img {
-      
-        object-fit:contain;
+
+        object-fit: contain;
+    }
+
+    /* Styles related to WHY CHOOSE us starts here */
+    .whyus_rowA {
+        flex-direction: column;
+    }
+
+    .card1,
+    .card2,
+    .card3 {
+        width: 100%;
+        padding: 32px;
     }
 
 }
