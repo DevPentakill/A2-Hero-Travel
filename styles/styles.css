@@ -244,3 +244,13 @@ h1 {
     align-items: center;
     border: 1px solid blueviolet;
 }
+.whyus_rowB{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid rgb(51, 32, 70);
+}
+.cards{
+    width: 50%;
+    background-color: cornflowerblue;
+}
