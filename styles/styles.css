@@ -10,8 +10,6 @@
 .container {
     max-width: 1170px;
     margin: 0px auto 81px;
-
-    border: 1px solid tomato;
 }
 
 .section-head {
@@ -51,18 +49,6 @@ hr {
     height: 1px;
     border: 0px;
     background-color: rgba(19, 19, 24, 0.10);
-}
-
-.flogo {
-    display: flex;
-    margin-top: 110px;
-    gap: 18px;
-    justify-content: space-between;
-    align-items: center;
-    color: #131318;
-    font-family: Mulish;
-    font-size: 32px;
-    font-weight: 800;
 }
 
 span {
@@ -134,7 +120,6 @@ h1 {
 .popular_img,
 .popular_text {
     width: calc((100% - 80px) / 2);
-    /* width:50%; */
 }
 
 .popular_text {
@@ -359,8 +344,6 @@ h1 {
     justify-content: space-around;
     gap: 17px;
 
-    /* align-items:flex-start; */
-
 }
 
 .news_form>hr {
@@ -383,7 +366,6 @@ h1 {
     font-family: Mulish;
     font-size: 16px;
     font-weight: 400;
-    /* margin: 16px auto 16px 20px; */
 
 }
 
@@ -461,7 +443,7 @@ footer {
 
 .copyright {
     max-width: 872px;
-    display:flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -471,7 +453,20 @@ footer {
     font-weight: 300;
     margin-bottom: 110px;
 }
-.copyright hr{
-   width:700px;
-   margin: 50px auto;
+
+.copyright hr {
+    width: 700px;
+    margin: 50px auto;
+}
+
+.flogo {
+    display: flex;
+    margin-top: 110px;
+    gap: 18px;
+    justify-content: space-between;
+    align-items: center;
+    color: #131318;
+    font-family: Mulish;
+    font-size: 32px;
+    font-weight: 800;
 }
