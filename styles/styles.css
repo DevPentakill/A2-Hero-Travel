@@ -10,8 +10,6 @@
 .container {
     max-width: 1170px;
     margin: 0px auto 81px;
-
-    border: 1px solid tomato;
 }
 
 .section-head {
@@ -473,7 +471,7 @@ footer {
     font-weight: 800;
 }
 
-/* navigation bar related styles */
+/*Bonus Section (1 out of 2) Navigation Bar Styles starts here. */
 
 header {
     max-width: 1170px;
@@ -522,4 +520,55 @@ nav {
 #special_home {
     color: #FF5400;
     font-weight: 700;
+}
+
+/*Bonus Section (2 out of 2) Arabian Country Tour Fest with image slider Styles starts here. */
+
+
+.slider-container {
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+    text-align: center;
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.4s ease-in-out;
+}
+
+.slide {
+    flex: 0 0 100%;
+    width:80%;
+    height: 623px;
+    background-size: cover;
+}
+
+#slide1 {
+    background-image: url('../Images/slide1.jpg');
+}
+
+#slide2 {
+    background-image: url('../Images/slide2.jpg');
+}
+
+#slide3 {
+    background-image: url('../Images/slide3.jpg');
+}
+
+#slide4 {
+    background-image: url('../Images/slide4.jpg');
+}
+
+#slide5 {
+    background-image: url('../Images/slide5.jpg');
+}
+
+input[type="radio"] {
+    display: inline;
+
+}
+
+input[type="radio"]:checked+.slides {
+    transform: translateX(-100%);
 }
