@@ -298,3 +298,8 @@ h1 {
     font-weight: 400;
     line-height: 26px;
 }
+
+/* Newsletter related styles ar here. */
+.news_letter{
+    display: flex;
+}
