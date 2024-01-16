@@ -52,6 +52,9 @@ hr {
     border: 0px;
     background-color: rgba(19, 19, 24, 0.10);
 }
+.logo{
+    display: flex;
+}
 
 /* banner related styles starts here. */
 
@@ -414,3 +417,15 @@ h1 {
     font-size: 26px;
     font-weight: 800;
 }
+
+/* footer related styles  */
+footer{
+    background-color: rgba(19, 19, 24, 0.05);
+}
+.foot{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: */
+    align-items: center;
+}
+
