@@ -52,8 +52,21 @@ hr {
     border: 0px;
     background-color: rgba(19, 19, 24, 0.10);
 }
-.logo{
+
+.flogo {
     display: flex;
+    margin-top: 110px;
+    gap: 18px;
+    justify-content: space-between;
+    align-items: center;
+    color: #131318;
+    font-family: Mulish;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+span {
+    color: #FF5400;
 }
 
 /* banner related styles starts here. */
@@ -385,19 +398,19 @@ h1 {
     text-align: center;
 }
 
-.news_view{
+.news_view {
     position: relative;
 }
 
 .offer70 {
     position: absolute;
-   bottom:10%;
-   right:2%;
+    bottom: 10%;
+    right: 2%;
     border-radius: 16px;
     background: #FF5400;
     width: 263px;
     height: 98px;
-    padding-top:20px;
+    padding-top: 20px;
     transform: rotate(-19.628deg);
     flex-shrink: 0;
 }
@@ -419,13 +432,46 @@ h1 {
 }
 
 /* footer related styles  */
-footer{
+footer {
     background-color: rgba(19, 19, 24, 0.05);
 }
-.foot{
+
+.foot {
+    max-width: 872px;
+    margin: 0px auto;
     display: flex;
     flex-direction: column;
-    /* justify-content: */
+    justify-content: center;
     align-items: center;
 }
 
+
+.foot>p {
+    color: #5A5A5D;
+    text-align: center;
+    font-style: normal;
+    margin: 33px auto;
+    width: 81%;
+}
+
+.socials i {
+    color: #131318;
+    margin-right: 13px;
+}
+
+.copyright {
+    max-width: 872px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #131318;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 110px;
+}
+.copyright hr{
+   width:700px;
+   margin: 50px auto;
+}
