@@ -361,11 +361,24 @@ h1 {
 
 
 }
-.news_form>form>input::placeholder{
-        color: rgba(19, 19, 24, 0.30);
+
+.news_form>form>input::placeholder {
+    color: rgba(19, 19, 24, 0.30);
     font-family: Mulish;
     font-size: 16px;
     font-weight: 400;
     /* margin: 16px auto 16px 20px; */
+
+}
+
+.news_form button {
+    width: 393px;
+    height: 52px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 800;
+    text-align: center;
 
 }
