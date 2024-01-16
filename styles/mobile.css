@@ -59,7 +59,7 @@
         align-items: auto;
         width: 100%;
         height: 100%;
-        
+
     }
 
     .gallery_text h2 {
@@ -94,7 +94,7 @@
     .img-8 img {
         /* width:100%; */
         object-fit: contain;
-       
+
     }
 
     /* Styles related to WHY CHOOSE us mobile responsive design starts here */
@@ -110,15 +110,22 @@
     }
 
     /* styles related to newsletter mobile view is here  */
-.news_letter{
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.news_form {
-    padding: 50px;
-    width: 100%;
-    height: 100%;
-}
+    .news_letter {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .news_form {
+        padding: 50px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .news_view>img {
+        width: 100%;
+        height: 100%;
+
+    }
 
 }

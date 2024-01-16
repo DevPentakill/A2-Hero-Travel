@@ -382,12 +382,6 @@ h1 {
     text-align: center;
 }
 
-/* .news_view>img{
-    width: 672px;
-height: px;
-flex-shrink: 0;
-} */
-
 .news_view{
     position: relative;
 }
