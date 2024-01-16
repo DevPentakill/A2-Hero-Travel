@@ -10,6 +10,8 @@
 .container {
     max-width: 1170px;
     margin: 0px auto 81px;
+
+    border: 1px solid tomato;
 }
 
 .section-head {
@@ -469,4 +471,28 @@ footer {
     font-family: Mulish;
     font-size: 32px;
     font-weight: 800;
+}
+
+/* navigation bar related styles */
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #131318;
+    font-family: Mulish;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.menu>ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 40px;
 }
